@@ -1,7 +1,7 @@
 #!/bin/sh
 
 ssh app@104.236.135.82
-  cd ~/hello-jenkins
+  cd ~/Hello-Jenkins
   git pull
   npm install --production
   forever restartall
